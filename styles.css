@@ -79,3 +79,16 @@ h2 {
     text-align: center;
     font-size: 18px;
 }
+
+#testimonial {
+    background-color: #EF767A;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 60px 20px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 50px;
+  }
+  
