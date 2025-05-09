@@ -3,6 +3,13 @@
     padding: 0px;
 }
 
+section {
+    width: 100%;
+    padding: 130px 200px;
+    box-sizing: border-box;
+  }
+  
+
 nav {
     position:fixed;
     box-sizing: border-box;
@@ -29,7 +36,6 @@ nav {
     align-items: center;
     background-color: #2D3142;
     color: #f5f5f5;
-    padding: 130px 0px;
     font-size: 40px;
     gap: 80px;
 }
@@ -41,4 +47,35 @@ button {
     font-weight: 700;
     background-color: #EF767A;
     color: #f5f5f5;
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+}
+
+#features {
+    background-color: #A594F9;
+    color: #121212;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.resize {
+    width: 200px;
+    height: auto;
+}
+
+.feature-item {
+    border: 2px solid #121212;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    font-size: 18px;
 }
